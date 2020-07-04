@@ -149,18 +149,16 @@ _________________________________________________________
     - Each element creates its own node (which is a kind of object)
 - To make web pages interactive, you write code that uses the brower’s model of the web page.
 _________________________________________________________
-```
+
 - Keep Javascript in their own file
     - Javascript files are text files that are labeled with “.js” extension
     - HTML is labeled with “.html” and CSS is labeled with “.css” extension
-- The HTML <script></script> element is used in HTML pages to tell the browser to load the Javascript file
+<!-- - The HTML <script></script> element is used in HTML pages to tell the browser to load the Javascript file
     - **Ex. <script src=”js/add-content.js”></script>**
     - Example of CSS in HTML pages:
         - <link rel=”stylesheet” href=”css/co1.css” />
             - Placed in the <head>
-```
-
-- ### VERY IMPORTANT: Placement of <script></script> for .js is before the closing </body> tag
+- ### VERY IMPORTANT: Placement of <script></script> for .js is before the closing </body> tag -->
     - The script is not blocking other things from downloading
     - The DOM has already loaded by the time the script is executed
 - View source code of browser Javascript will not have changed the HTML because script works with model of web page the browser has created

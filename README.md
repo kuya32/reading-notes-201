@@ -2,11 +2,11 @@
 
 ## Table of Contents for my Readings
 
-1. [Read: 01 - Introductory HTML and JavaScript ](class-01.md)
-2. [Read: 02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions ]()
-3. [Read: 03 - HTML Lists, CSS Boxes, JS Control Flow ]()
-4. [Read: 04 - HTML Links, CSS Layout, JS Functions ]()
-5. [Read: 05 - HTML Images; CSS Color & Text ]()
+1. [Read: 01 - Introductory HTML and JavaScript](class-01.md)
+2. [Read: 02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions]()
+3. [Read: 03 - HTML Lists, CSS Boxes, JS Control Flow]()
+4. [Read: 04 - HTML Links, CSS Layout, JS Functions]()
+5. [Read: 05 - HTML Images; CSS Color & Text]()
 6. [Read: 06 - JS Object Literals; The DOM]()
 7. [Read: 07 - HTML Tables; JS Constructor Functions]()
 8. [Read: 08 - More CSS Layout]()

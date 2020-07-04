@@ -2,71 +2,79 @@
 
 ## HTML Chapter 1: “Structure” (pp.12-39)
 
-```
 - HTML pages are text documents
 - HTML uses tags to give information they surround special meanings
-    - <body>, <head>, and <title> tags
+    - ***body***, ***head***, and ***title*** tags
 - Another way to say tags is “elements”
 - Tags come in pairs. Opening tag denotes the start of a piece of content; closing tag denotes the end
-    - <p> - opening tag for a paragraph
+
+```
+
+    -<p> - opening tag for a paragraph
     - </p> - closing tag for a paragraph
+```
+
 - Opening tags can carry attributes, which tell us more about the content of that element
+
+```
+
     - <p id=”banana”> - this shows a tag with a identity attribute of banana
     - <p class=”apple”> - this shows a tag with a class attribute of apple
-    - Attributes require a name and value
 ```
+
+    - Attributes require a name and value
 
 ## HTML Chapter 8: “Extra Markup” (p.176-199)
 
-```
 - DOCTYPE tell browser which version of HTML you are using
-    - <!DOCTYPE html> tells the browser we are using HTML5
+
+```    - <!DOCTYPE html> tells the browser we are using HTML5
+```
+
 - You can add comments to your code between the <!-- and → markers
     - Use comments to explain parts of code in HTML
 - The *id* and *class* attributes allow you to identify particular elements
-    - <p id=”banana”> - this shows a tag with a identity attribute of banana
+```    - <p id=”banana”> - this shows a tag with a identity attribute of banana
     - <p class=”apple”> - this shows a tag with a class attribute of apple
-    - These attributes can be used to easily manipulate through CSS
-- The <div> and <span> elements allow you to group block-level and inline elements together
-    - Other block elements
-        - <h1>, <p>, <ul> and <li>
-    - Other inline elements
-        - <a>, <b>, <em>, and <img>
-- <iframes> cut windows into your web pages through which other pages can be displayed
-    - When using <iframe> also identify the width, height and source (src) of the image
-- The <meta> tag allows you to supply all kinds of information about your web pages
-    - Description of web page for search engines to use.
 ```
+    - These attributes can be used to easily manipulate through CSS
+- The ***div*** and ***span*** elements allow you to group block-level and inline elements together
+    - Other block elements
+        - ***h1***, ***p***, ***ul*** and ***li***
+    - Other inline elements
+        - ***a***, ***b***, ***em***, and ***img***
+- ***iframes*** cut windows into your web pages through which other pages can be displayed
+    - When using ***iframe*** also identify the width, height and source (src) of the image
+- The ***meta*** tag allows you to supply all kinds of information about your web pages
+    - Description of web page for search engines to use.
 
 ## HTML Chapter 17: “HTML5 Layout” (pp.428-451)
 
-```
 - The new HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure
 - The new elements provide clearer code
-    - Traditional HTML used numerous <div> to structure its web page
-    - HTML5 corrects the overuse of <div> and writes with cleaner and organized code
+    - Traditional HTML used numerous ***div*** to structure its web page
+    - HTML5 corrects the overuse of ***div*** and writes with cleaner and organized code
 - New tags/elements
-    - <header>
+    - ***header***
         - Located at the top of page
         - Contains the site name and the main navigation
-    - <footer>
+    - ***footer***
         - Located at the bottom of page
         - Contains copyright information
-    - <nav>
+    - ***nav***
         - Used to contain the major navigational blocks on the site such as the primary site navigation
-    - <article>
+    - ***article***
         - Acts as a container for any section of a page that could stand alone and potentially be syndicated
-    - <aside>
-    - <section>
+    - ***aside***
+    - ***section***
         - Groups related content together, and typically each section would have its own heading
-        - Leave containing elements for the entire page to <div>
-    - <hgroup>
-        - To group together a set of one or more <h1> through <h6> elements so that they are treated as one single heading
-    - <figure>
-    - <figcaption>
-    - <div> 
+        - Leave containing elements for the entire page to ***div***
+    - ***hgroup***
+        - To group together a set of one or more ***h1*** through ***h6*** elements so that they are treated as one single heading
+    - ***figure***
+    - ***figcaption***
+    - ***div*** 
         - Important way to group together related elements
-```
 
 ## HTML Chapter 18: “Process & Design” (pp.452-475)
 
@@ -153,12 +161,15 @@ _________________________________________________________
 - Keep Javascript in their own file
     - Javascript files are text files that are labeled with “.js” extension
     - HTML is labeled with “.html” and CSS is labeled with “.css” extension
-<!-- - The HTML <script></script> element is used in HTML pages to tell the browser to load the Javascript file
+- The HTML ***script*** element is used in HTML pages to tell the browser to load the Javascript file
+```
     - **Ex. <script src=”js/add-content.js”></script>**
     - Example of CSS in HTML pages:
         - <link rel=”stylesheet” href=”css/co1.css” />
             - Placed in the <head>
-- ### VERY IMPORTANT: Placement of <script></script> for .js is before the closing </body> tag -->
+```
+
+- ### VERY IMPORTANT: Placement of ***script*** for .js is before the ***closing body*** tag
     - The script is not blocking other things from downloading
     - The DOM has already loaded by the time the script is executed
 - View source code of browser Javascript will not have changed the HTML because script works with model of web page the browser has created

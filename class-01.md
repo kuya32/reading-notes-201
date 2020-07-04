@@ -9,7 +9,6 @@
 - Tags come in pairs. Opening tag denotes the start of a piece of content; closing tag denotes the end
 
 ```
-
     -<p> - opening tag for a paragraph
     - </p> - closing tag for a paragraph
 ```
@@ -17,26 +16,29 @@
 - Opening tags can carry attributes, which tell us more about the content of that element
 
 ```
-
     - <p id=”banana”> - this shows a tag with a identity attribute of banana
     - <p class=”apple”> - this shows a tag with a class attribute of apple
 ```
 
-    - Attributes require a name and value
+- Attributes require a name and value
 
 ## HTML Chapter 8: “Extra Markup” (p.176-199)
 
 - DOCTYPE tell browser which version of HTML you are using
 
-```    - <!DOCTYPE html> tells the browser we are using HTML5
+```
+- <!DOCTYPE html> tells the browser we are using HTML5
 ```
 
 - You can add comments to your code between the <!-- and → markers
     - Use comments to explain parts of code in HTML
 - The *id* and *class* attributes allow you to identify particular elements
-```    - <p id=”banana”> - this shows a tag with a identity attribute of banana
+
+```
+- <p id=”banana”> - this shows a tag with a identity attribute of banana
     - <p class=”apple”> - this shows a tag with a class attribute of apple
 ```
+
     - These attributes can be used to easily manipulate through CSS
 - The ***div*** and ***span*** elements allow you to group block-level and inline elements together
     - Other block elements

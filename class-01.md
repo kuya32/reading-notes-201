@@ -2,6 +2,7 @@
 
 ## HTML Chapter 1: “Structure” (pp.12-39)
 
+```
 - HTML pages are text documents
 - HTML uses tags to give information they surround special meanings
     - <body>, <head>, and <title> tags
@@ -13,9 +14,11 @@
     - <p id=”banana”> - this shows a tag with a identity attribute of banana
     - <p class=”apple”> - this shows a tag with a class attribute of apple
     - Attributes require a name and value
+```
 
 ## HTML Chapter 8: “Extra Markup” (p.176-199)
 
+```
 - DOCTYPE tell browser which version of HTML you are using
     - <!DOCTYPE html> tells the browser we are using HTML5
 - You can add comments to your code between the <!-- and → markers
@@ -33,9 +36,11 @@
     - When using <iframe> also identify the width, height and source (src) of the image
 - The <meta> tag allows you to supply all kinds of information about your web pages
     - Description of web page for search engines to use.
+```
 
 ## HTML Chapter 17: “HTML5 Layout” (pp.428-451)
 
+```
 - The new HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure
 - The new elements provide clearer code
     - Traditional HTML used numerous <div> to structure its web page
@@ -61,6 +66,7 @@
     - <figcaption>
     - <div> 
         - Important way to group together related elements
+```
 
 ## HTML Chapter 18: “Process & Design” (pp.452-475)
 
@@ -143,7 +149,7 @@ _________________________________________________________
     - Each element creates its own node (which is a kind of object)
 - To make web pages interactive, you write code that uses the brower’s model of the web page.
 _________________________________________________________
-
+```
 - Keep Javascript in their own file
     - Javascript files are text files that are labeled with “.js” extension
     - HTML is labeled with “.html” and CSS is labeled with “.css” extension
@@ -152,6 +158,8 @@ _________________________________________________________
     - Example of CSS in HTML pages:
         - <link rel=”stylesheet” href=”css/co1.css” />
             - Placed in the <head>
+```
+
 - ### VERY IMPORTANT: Placement of <script></script> for .js is before the closing </body> tag
     - The script is not blocking other things from downloading
     - The DOM has already loaded by the time the script is executed

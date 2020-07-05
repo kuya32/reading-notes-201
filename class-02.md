@@ -1,1 +1,1 @@
-[tag: <p>]
+[tag: paragraph]

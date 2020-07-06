@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Read: 02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions
 
 ## HTML Chapter 2: “Text” (pp.40-61)
@@ -172,3 +173,6 @@ Advantages of using external style sheet
 	        else {
 	            encourage();
 ```
+=======
+[tag: paragraph]
+>>>>>>> c85aa3ff5669eb3025f40485a0f2e8106f9fbb93

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Read: 02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions
 
 ## HTML Chapter 2: “Text” (pp.40-61)

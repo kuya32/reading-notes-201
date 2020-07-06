@@ -84,11 +84,11 @@
         - Same is while loop, but with one difference. It will always run the statement at least once. Even if the condition evaluates to false.
     - Example of a for loop:
 
-```
+
     for (var i = 0; i < 10; i++) {
-	    document.write(i);
+        document.write(i);
     }
-```
+
 
     - For loop breakdown:
         - Initialization (var i = 0;)

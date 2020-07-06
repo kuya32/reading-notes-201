@@ -175,3 +175,5 @@ _________________________________________________________
     - The script is not blocking other things from downloading
     - The DOM has already loaded by the time the script is executed
 - View source code of browser Javascript will not have changed the HTML because script works with model of web page the browser has created
+
+[Back to README](README.md)

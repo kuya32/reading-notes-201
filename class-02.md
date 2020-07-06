@@ -172,3 +172,5 @@ Advantages of using external style sheet
 	        else {
 	            encourage();
 ```
+
+[Back to README](README.md)

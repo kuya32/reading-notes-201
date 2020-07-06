@@ -173,6 +173,3 @@ Advantages of using external style sheet
 	        else {
 	            encourage();
 ```
-=======
-[tag: paragraph]
->>>>>>> c85aa3ff5669eb3025f40485a0f2e8106f9fbb93

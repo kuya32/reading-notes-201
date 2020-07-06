@@ -13,7 +13,7 @@
 9. [Read: 09 - Forms and Events]()
 10. [Read: 10 - JS Debugging]()
 11. [Read: 11 - Assorted Topics]()
-12. [Read: 12 - Docs for the HTML Canvas Element & Chart.js]()
+12. [Read: 12 - Docs for the HTML Canvas Element & Chart]()
 13. [Read: 13 - Local Storage]()
 14. [Read: 14a - CSS Transforms, Transitions, and Animations]()
 15. [Read: 14b - What Google Learned About Teams]()

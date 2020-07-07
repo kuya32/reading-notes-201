@@ -17,3 +17,6 @@
 13. [Read: 13 - Local Storage]()
 14. [Read: 14a - CSS Transforms, Transitions, and Animations]()
 15. [Read: 14b - What Google Learned About Teams]()
+
+## Table of Contents for my Labs
+1. [Lab: 01b - Getting Up and Running!](lab-01.html)

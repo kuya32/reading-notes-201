@@ -14,8 +14,13 @@
         background: rgb(2, 143, 199);
       }
 
-      h1, p {
+      h1, h2, p {
         text-align: center;
+        color:rgb(255, 251, 3)
+      }
+
+      main > h1 {
+        color: rgb(255, 251, 3);
       }
 
       .pokemon {
@@ -30,6 +35,8 @@
     <p style="color:rgb(255, 251, 3)">I only kept the information to the first generation starter pokemon because they are the only pokemon that matter!</p>
   </header>
   <body>
+  <main>
+    <h1>Class 1 Lab: 1st Generation Starters</h1>
     <ul>
       <li class="pokemon">Bulbasaur</li>
       <li>
@@ -44,6 +51,21 @@
         <img src="https://cdn.bulbagarden.net/upload/3/39/007Squirtle.png" style="width: 300px">
       </li>
     </ul>
+  <h2>Website Pokemon Questions</h2>
+    <ol>
+      <li>
+        <p style="background-color: rgb(241, 3, 3)">Which 1st generation starter pokemon did you choose? Bulbasaur, Charmander or Squirtle?</p>
+      </li>
+      <li>
+        <p style="background-color:black">Using no more than five words, why is + favoriteStarterPokemon +  your favorite starter pokemon?</p>
+      </li>
+      <li>
+        <p style="background-color:rgb(3, 78, 41)">Besides + favoriteStarterPokemon + . Who is your overall favorite pokemon?</p>
+      </li>
+      <li>
+        <p style="background-color:darkgoldenrod">"Before we move on, what is your name?"</p>
+      </li>
+    </ol>
     <footer style="color:rgb(255, 251, 3)">
       <p>This page was created by kuya32 for his love of Pokemon</p>
     </footer>
@@ -66,9 +88,11 @@
 
       var nameAnswer = prompt("Before we move on, what is your name?");
 
-      alert("Okay, " + nameAnswer + ". Since your favorite starter pokemon is " + favoriteStarterPokemon + " (because " + favoriteThingAnswer + ") and your favorite overall pokemon is " + secondFavoritePokemon + ". You are allowed to view my site!")
-      
+      alert("Okay, " + nameAnswer + ". Since your favorite starter pokemon is " + favoriteStarterPokemon + " (because " + favoriteThingAnswer + ") and your favorite overall pokemon is " + secondFavoritePokemon + ". You are allowed to view my site!");
+      console.log("nameAnswer ::: " + nameAnswer);
+
     </script>
+  </main>
   </body>
 
 </html>

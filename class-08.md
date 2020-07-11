@@ -1,0 +1,74 @@
+# Read: 08 - More CSS Layout
+
+## HTML/CSS book, Ch. 15, “Layout”
+
+- ```<div>``` elements are often used as containing elements to group together sections of a page.
+  - Block level elements
+    - ```<h1>```, ```<p>```, ```<ul>```, and ```<li>```
+  - Inline elements
+    - ```<img>```, ```<b>```, and ```<i>```
+- Browsers display pages in normal flow unless you specify relative, absolute, or fixed positioning 
+  - Relative
+    - Moves an element in relation to where it would have been in normal flow.
+  - Absolute
+    - The box is taken out of normal flow and no longer affects the position of other elements on the page.
+  - Fixed
+    - Type of absolute positioning 
+    - Positions the element in relation to the browser window
+    - When a user scrolls down the page, it stays in the exact same place.
+- The float property moves content to the left or right of the page and can be used to create multi-column layouts. 
+  - Floated items require a defined width so they don't take up full length of page
+  - Using float to place elements side-by-side
+    - Height of boxes affects where elements sit
+  - Clearing floats (clear: left;)
+    - Allows you to say that no element should touch the left or right hand side of a box
+  - Creating multi-column layouts with floating
+    - Using ```<div>``` to section content, then width, float and margin in CSS to space out content between each other
+- Z-index allows you to control which box appears on top.
+  - Value of z-index is a number 
+  - Higher/larger number will appear over the top of smaller numbers
+- Pages can be fixed width or liquid (stretchy) layouts. 
+  - Fixed width layouts design
+    - Do not change size as the user increases or decreases the size of their browser window.
+    - Advantages:
+      - Accurate pixel values when controlling size and position of elements
+      - Far greater control of items appearance and position
+      - Control the lengths of lines of text regardless of size
+      - Size of image stays the same	
+    - Disadvantages
+      - Large gaps at ends of pages
+      - Higher resolution users can't see text and is hard to read
+      - Increase in font size, text might not fit
+      - Only works better with devices with similar resolution
+      - Takes more vertical space
+  - Liquid layouts design
+    - Stretch and contract as the user increases or decreases the size of their browser window
+    - Advantages:
+      - Page expands so no spaces around the page
+      - Small window, page contracts to fit
+      - Tolerant of users setting, larger font sizes
+    - Disadvantages
+      - If width is not controlled, expected results won't show
+      - Wide window causes stretched text
+      - Narrow window causes squished text
+      - Large image plus small box means overflow
+- Designer keeps pages within 960-1000 pixels wide, and indicate what the site is about within the top 600 pixels
+  - To demonstrate its relevance without scrolling
+- Grids help create professional and flexible designs.
+  - 960 pixel grid
+  - Continuity across different pages and designs
+  - Helps user find information on page
+  - Easier to add new content
+  - Helps collaborate the site 
+- CSS frameworks provide rules for common tasks. 
+  - 960 Grid System
+  - Available at www.960.gs
+  - Advantages
+    - Save you from repeating code
+    - Tested across different browser versions
+  - Disadvantages
+    - Require use class names in your HTML code that only control presentation of page
+  - Contain more code than you need for your particular web page
+- You can include multiple CSS files of one page.
+
+[Back to README](README.md)
